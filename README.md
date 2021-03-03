@@ -18,7 +18,7 @@ In the subsequent runs, you can use:
 ```mvn test```
 
 ## Running by tags
-You can run the tests by specifing their tags:
+You can run the tests by specifying their tags:
 
 ```mvn test -Dcucumber.options="--tags '@crue'"  ```
 
@@ -31,10 +31,6 @@ The above command will only run the tests annotated with the @crue or the @slipk
 ```mvn test -Dcucumber.options="--tags '@crue and @slipknot'"  ```
 
 The above command will only run the tests annotated with the @crue and the @slipknot tag
-
-```mvn test -Dcucumber.options="--tags '@crue or @slipknot'"  ```
-
-The above command will only run the tests annotated with the @crue or the @slipknot tag
 
 ```mvn test -Dcucumber.options="--tags 'not @wip'"  ```
 
